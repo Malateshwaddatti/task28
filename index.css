@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  background-color: white;
+}
+.card{
+  background-color: white;
+  border-radius:20px;
+  padding:16px;
+  margin-bottom:10px;
+
+}
+.features{
+  list-style: none;
+  text-align:left;
+}
+.features>li{
+  margin-bottom:0.5rem;
+  font-size:1.25rem;
+}
+.features>li:nth-child()::marker{
+  content: cutt;
+}
+
+
+
+.button{
+  width: 100%;
+  background-color: blue;
+  border-color: navy;
+  border-radius: 1000px;
+  color: white;
+  padding: 10px;
+  letter-spacing: 5px;
+  margin: 5px;
+  font-size:12px;
+  opacity:60%;
+
+}
+.button:hover{
+  background-color: red;
+  border-color: blue;
+}
+.price{
+  font-size:1.5rem;
+}
+.price-duration{
+  font-size:1rem;
+}
+
+.name{
+  margin-bottom:0rem;
+  color:grey;
+  padding-bottom:5px;
+}
+
+.one{
+  background-color:teal;
+  height:350px;
+  width:200px;
+  margin:25px;
+  padding:15px;
+  border-radius:15px;
+  color:white;
+}
+.two{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+  width:400px;
+  height:40px;
+  margin: 30px;
+  padding-bottom:80px;
+  
+}
+.game-box{
+  border:1px solid black;
+  height:8rem;
+  width: 8rem;
+  
+}
